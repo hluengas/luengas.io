@@ -21,7 +21,7 @@ video_row1:
     excerpt: "This is a simplified version of the standard *tr* utility. It takes as input two sets of characters, then while running, it echos STDIN to STDOUT translating any letters in the first input set to the respective letter in the second input set. If only given one set of characters it removes them from the output."
     btn_label: "View Source"
     btn_class: "btn--info"
-    url: "https://github.com/HBot106/simple-tr"
+    url: "https://github.com/hluengas/simple-tr"
 
 video_row2:
   - video_path: /assets/media/cli-utils/simple-timer.webm
@@ -29,7 +29,7 @@ video_row2:
     excerpt: "This simple utility takes a number of seconds as input. It then displays a one line timer readout in the form HH:MM:SS. The timer starts in a running state but can be stopped. An ASCII twirler animates while the timer is running. Hours, minutes, and seconds can be added or removed. When the timer hits zero, the ASCII *Bell* notification is played, and the timer will begin counting into negative -HH:MM:SS." 
     btn_label: "View Source"
     btn_class: "btn--info"
-    url: "https://github.com/HBot106/simple-timer"
+    url: "https://github.com/hluengas/simple-timer"
     
 
 video_row3:
@@ -38,7 +38,7 @@ video_row3:
     excerpt: "This project is a *20 Questions* style game limited to yes/no questions. It uses a binary tree structure to store questions with answers at the leaves. This tree is serialized and deserialized into a text file so that the game can grow after multiple successive playthroughs. If the program guesses wrong, then it prompts the user to add the correct answer and a yes/no question to differentiate it from the program's guess. This new answer will be inserted into the tree for use in subsequent rounds."
     btn_label: "View Source"
     btn_class: "btn--info"
-    url: "https://github.com/HBot106/simple-20-questions"
+    url: "https://github.com/hluengas/simple-20-questions"
     
 video_row4:
   - video_path: /assets/media/cli-utils/simple-make.webm
@@ -46,7 +46,7 @@ video_row4:
     excerpt: "This project is a simplified version of the extremely useful unix *make* utility, used for compiling multi-file C programs. It starts by opening a *Smakefile* and parsing it into a rule tree. The rules for each compilation target are then processed recursively to compile the program. In this small demo *example.c* takes an argument and calls the factorial function defined in *fact.h* and implemented in *fact.c*. If the *Smakefile* is in the proper format the project will be compiled and any relevant errors will be reported."
     btn_label: "View Source"
     btn_class: "btn--info"
-    url: "https://github.com/HBot106/simple-make"
+    url: "https://github.com/hluengas/simple-make"
 
 video_row5:
   - video_path: /assets/media/cli-utils/simple-unix-stats.webm
@@ -75,7 +75,7 @@ video_row5:
 "
     btn_label: "View Source"
     btn_class: "btn--info"
-    url: "https://github.com/HBot106/simple-unix-stat"
+    url: "https://github.com/hluengas/simple-unix-stat"
 
 video_row6:
   - video_path: /assets/media/cli-utils/simple-web-server.webm
@@ -83,7 +83,7 @@ video_row6:
     excerpt: "This program is an extremely basic and stripped down web server. It responds only to HTTP/1.0 HEAD and GET querries. It gives error responses for the following scenarios: 400 Bad Request, 403 Permission Denied, 404 Not Found, 500 Internal Error, and 501 Not Implemented. For properly formed HEAD requests, it responds with the Content-Type and Content-Length. GET requests function in one of two ways. A normal GET request will include the text of the requested file as the body of the response. A GET request to one of the binaries in the */cgi-like/* directory will run that binary and return the text of STDOUT as the body of the response."
     btn_label: "View Source"
     btn_class: "btn--info"
-    url: "https://github.com/HBot106/simple-web-server"
+    url: "https://github.com/hluengas/simple-web-server"
 
 video_row7:
   - video_path: /assets/media/cli-utils/simple-pcap-inspector.webm
@@ -91,7 +91,7 @@ video_row7:
     excerpt: "This program will read and inspect packet data from, *.pcap* files captured by other programs such as wireshark. For all packets, the Ethernet header info is printed. Next, either IP or ARP headers are read and printed. Finally, for any IP packets, the TCP, UDP, or ICMP header info gets read and printed. For TCP and UDP packets, commonly used ports for services like HTTP, DNS, FTP, TELNET, SMTP, and POP3 are also checked and reported. TCP packet checksums are calculated and compared to the header value, to check for malformed or corrupt TCP packets as well."
     btn_label: "View Source"
     btn_class: "btn--info"
-    url: "https://github.com/HBot106/pcap-packet-info"
+    url: "https://github.com/hluengas/pcap-packet-info"
 
 video_row8:
   - video_path: /assets/media/cli-utils/simple-chat.webm
@@ -99,7 +99,7 @@ video_row8:
     excerpt: "This client-server chat program allows many users to sign on to a chat server and send private messages between one another or public broadcasts to all users. It uses a custom built message packet, that is encapsulated and sent over the network as a TCP packet. Both the client and server can receive, interpret, and send these packets to facilitate the chatting system. The client program interacts with the users, allowing them to *sign-on* with a handle and message other registered handles, or all connected users. The server receives, checks the validity of, and passes the messages to their intended recipients. It also manages the registration and deregistration of user handles as well as providing clients with the list of available users. In this small demo, three clients register handles and demonstrate some of the chat features." 
     btn_label: "View Source"
     btn_class: "btn--info"
-    url: "https://github.com/HBot106/simple-chat"
+    url: "https://github.com/hluengas/simple-chat"
 
 
 ---

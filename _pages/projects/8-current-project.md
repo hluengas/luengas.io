@@ -30,5 +30,5 @@ feature_row1:
 
 {% include feature_row id="feature_row1" type="left" %}
 
-<a href="https://github.com/HBot106/luengas.io" class="btn btn--info btn--large">View Website Source</a>
-<a href="https://github.com/HBot106/rusty-color-shredder" class="btn btn--info btn--large">View Rusty Color Shredder Source</a>
+<a href="https://github.com/hluengas/luengas.io" class="btn btn--info btn--large">View Website Source</a>
+<a href="https://github.com/hluengas/rusty-color-shredder" class="btn btn--info btn--large">View Rusty Color Shredder Source</a>

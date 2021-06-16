@@ -38,4 +38,4 @@ feature_row1:
 {% include feature_row id="feature_row1" type="left" %}
 
 <a href="https://hangman.luengas.io" class="btn btn--success btn--large">Play In Browser</a>
-<a href="https://github.com/HBot106/elm-hangman" class="btn btn--info btn--large">View Elm Hangman Source</a>
+<a href="https://github.com/hluengas/elm-hangman" class="btn btn--info btn--large">View Elm Hangman Source</a>

@@ -59,7 +59,7 @@ feature_row2:
 {% include feature_row_left id="feature_row1" type="right" %}
 {% include feature_row id="feature_row2" type="left" %}
 
-<a href="https://github.com/HBot106/Project-Curve" class="btn btn--info btn--large">View Source</a>
+<a href="https://github.com/hluengas/Project-Curve" class="btn btn--info btn--large">View Source</a>
 <a href="/assets/files/curve-builds/curve-windows.zip" class="btn btn--warning btn--large">Download Windows Executable</a>
 <a href="/assets/files/curve-builds/curve-macosx.zip" class="btn btn--warning btn--large">Download MacOS Executable</a>
 
